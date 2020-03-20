@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FrontendFunn - HTML5 Video Player with Custom Controls</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="top-info">
+        HTML5 Video Player with Custom Controls. Give a try Scrolling on the
+        Seekbar and Volume Control
+      </div>
+      <div class="video-player">
+        <div class="video-topbar">
+          Title
+        </div>
+        <video
+          src="https://www.videvo.net/videvo_files/converted/2018_07/videos/180607_A_101.mp466981_jw.mp4"
+        ></video>
+        <div class="video-controls">
+          <div class="video-top-controls">
+            <div class="video-seekbar seekbar">
+              <span class="progress"></span>
+            </div>
+          </div>
+
+          <div class="video-playback-controls">
+            <button class="control-btn toggle-play-pause play">
+              <i class="fas fa-play play-icon icon"></i>
+              <i class="fas fa-pause pause-icon icon"></i>
+            </button>
+            <div class="video-volume-control">
+              <button class="control-btn toggle-volume on">
+                <i class="fas fa-volume-up icon volume-on"></i>
+                <i class="fas fa-volume-mute icon volume-off"></i>
+              </button>
+              <div class="volume-seekbar seekbar">
+                <span class="progress"></span>
+              </div>
+            </div>
+            <div class="video-timings">
+              <div class="start-time time">00:00:00</div>
+              /
+              <div class="end-time time">00:00:00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"
+      integrity="sha256-jnOjDTXIPqall8M0MyTSt98JetJuZ7Yu+1Jm7hLTF7U="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
