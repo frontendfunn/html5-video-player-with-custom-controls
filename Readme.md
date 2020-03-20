@@ -1,6 +1,6 @@
 # HTML5 Video Player with custom controls 😄
 
-## 😃 Click here for the 👉 [💥LIVE DEMO]()
+## 😃 Click here for the 👉 [💥LIVE DEMO](https://frontendfunn.github.io/html5-video-player-with-custom-controls/)
 
 ---
 
